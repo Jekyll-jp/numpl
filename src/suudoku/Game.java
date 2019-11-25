@@ -2,6 +2,8 @@ package suudoku;
 
 import java.util.HashSet;
 
+//コメント追加
+
 class Game {
     public boolean isValidSudoku(char[][] board) {
         for(int i = 0; i < board.length; i++){
